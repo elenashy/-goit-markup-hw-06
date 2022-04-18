@@ -848,8 +848,8 @@ img {
 }
 .contact-form-title {
   font-family: var(--primary-font-family);
-  font-weight: 700;
   font-size: 20px;
+  font-weight: 700;
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
@@ -868,8 +868,8 @@ img {
 
   color: var(--primary-text-color);
 }
-.contact-form-field:not(:first-child) {
-  margin-top: 10px;
+.contact-form-wrapper {
+  margin-bottom: 10px;
 }
 .contact-form-input {
   width: 100%;
@@ -958,6 +958,9 @@ img {
   background-color: var(--hover-btn-modal-color);
   color: var(--text-btn-modal-color);
 }
+.textarea-wrapper {
+  margin-bottom: 20px;
+}
 .contact-form-checkbox-wrapper {
   display: flex;
   align-items: center;
@@ -973,8 +976,6 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
-  margin-top: 20px;
 
   color: var(--primary-text-color);
 }
