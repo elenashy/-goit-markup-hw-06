@@ -961,13 +961,16 @@ img {
   margin-top: 20px;
 }
 .contact-form-checkbox-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: var(--primary-font-family);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  margin-left: 8px;
+  margin-top: 20px;
 
   color: var(--primary-text-color);
 }
@@ -983,14 +986,25 @@ img {
   color: #2196f3;
 }
 
-.contact-form-checkbox-svg {
+.checkbox-vector {
+  display: block;
+  width: 16px;
+  height: 15px;
+  background-color: transparent;
+  border: 2px solid var(--primary-text-btn-color);
+  border-radius: 3px;
+
+  margin-right: 9px;
   cursor: pointer;
 }
 
-.contact-form-checkbox:focus + .contact-form-checkbox-svg {
-  fill: #2196f3;
+.contact-form-checkbox:focus + .checkbox-vector {
+  border: 2px solid var(--accent-color);
+  border-radius: 3px;
 }
-.contact-form-checkbox:checked + .contact-form-checkbox-svg {
+.contact-form-checkbox:checked + .checkbox-vector {
   background-image: url(../img/icon-check.svg);
   background-color: var(--accent-color);
+  background-position: center center;
+  background-origin: border-box;
 }
