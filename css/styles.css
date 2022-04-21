@@ -907,6 +907,7 @@ img {
 }
 .contact-form-comment:focus {
   border-color: #2196f3;
+  outline: #2196f3;
 }
 .contact-form-comment::placeholder {
   font-family: var(--primary-font-family);
